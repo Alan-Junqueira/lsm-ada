@@ -6,7 +6,7 @@ const isPrime = (n) => {
       divisionsQuantity++
     }
   }
-  return divisionsQuantity === 2 ? true : false
+  return divisionsQuantity === 2
 }
 
 //* Teste com os números primos de 1 a 100
