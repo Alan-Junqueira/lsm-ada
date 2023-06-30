@@ -1,7 +1,7 @@
 const isPrime = (n) => {
   if (n < 0) {
     console.log('Não é possível verificar se este número é primo')
-    return
+    return 'Não é possível verificar se este número é primo'
   }
   let divisionsQuantity = 0
 

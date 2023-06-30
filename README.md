@@ -1,5 +1,7 @@
--1: 
+-1 ==> [x]
+
 ===================================
+```javascript
 const isPrime = (n) => {
   if (n < 0) {
     console.log('Não é possível verificar se este número é primo')
@@ -14,6 +16,7 @@ const isPrime = (n) => {
   }
   return divisionsQuantity === 2
 }
+```
 
 ===================================
 
